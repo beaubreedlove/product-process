@@ -1,6 +1,8 @@
 # Product Development Process
 
-This repository captures a simple framework for defining and documenting how products progress from high level goals to technical implementation. The aim is to keep the process straightforward enough that it can be reused across projects.
+**Note:** I have a WIP for updating this document in this ChatGPT session: https://chatgpt.com/c/686f26b4-d9dc-8004-91a0-634d7e4d0907
+
+This repository captures a simple framework for defining and documenting how products progress from high-level goals to technical implementation. The aim is to keep the process straightforward enough that it can be reused across projects.
 
 ## Overview
 
@@ -14,7 +16,7 @@ These phases represent a handoff from product thinking to technical execution. T
 
 ## The Why
 
-A "why" states what you hope to achieve in measurable terms. In most cases, it should read like a KPI or SMART goal: "move this metric by this amount in this timeframe." The exception is when you're building a way to measure something for the first time. You can view that as bringing the ability to measure a metric from 0 to 1 – effectively moving that KPI into existence.
+A "why" states what you hope to achieve in measurable terms. In most cases it should read like a KPI or SMART goal: "move this metric by this amount in this timeframe." The exception is when you're building a way to measure something for the first time. You can view that as bringing the ability to measure a metric from 0 to 1—effectively moving that KPI into existence.
 
 ## The What
 
