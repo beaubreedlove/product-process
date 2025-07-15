@@ -1,10 +1,10 @@
 # Product Development Process
 
-This document outlines a structured, layered approach to developing features and products. Each step in the process exists to serve the one before it. Any changes downstream should be reflected upstream unless explicitly covered by flexible allowances.
+⚠️ This README is being refined in [this ChatGPT session](https://chatgpt.com/c/686f26b4-d9dc-8004-91a0-634d7e4d0907).
 
 ---
 
-## Development Flow
+## Process Flow
 
 ```
 PRODUCT SPEC → TECHNICAL SPEC → INTEGRATION TESTS → IMPLEMENTATION
@@ -68,6 +68,8 @@ The agent should weigh scope, risk, and delivery speed when selecting an option 
 ---
 
 ## Spec Hierarchy and Responsibilities
+
+This document outlines a structured, layered approach to developing features and products. Each step exists to serve the one before it. Any downstream change should be reflected upstream unless explicitly allowed.
 
 Each level should faithfully reflect the one above it:
 
