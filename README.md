@@ -1,9 +1,5 @@
 # Product Development Process
 
-⚠️ This README is being refined in [this ChatGPT session](https://chatgpt.com/c/686f26b4-d9dc-8004-91a0-634d7e4d0907).
-
----
-
 ## Process Flow
 
 ```
