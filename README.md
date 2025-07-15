@@ -1,5 +1,7 @@
 # Product Development Process
 
+This guide explains how AI agents should develop features through specs and tests. Following these steps keeps the Vibe Coder workflow efficient and ensures consistent quality.
+
 ## Process Flow
 
 ```
@@ -97,6 +99,9 @@ Organize all specs and related documents using these directories:
 
 ## Snippet for `AGENTS.md`
 
+Include the following snippet in your repository's `AGENTS.md` to ensure that AI
+contributors follow this development process.
+
 ```
 # AI Agent Instructions
 
@@ -115,6 +120,9 @@ This repository follows a structured product development process. Before taking 
 ---
 
 ## Snippet for `README.md`
+
+Add the snippet below to your repository's `README.md` so that all contributors
+know to consult the process documentation.
 
 ```
 ## Development Philosophy
