@@ -5,7 +5,12 @@ See [docs/PRODUCT_PROCESS.md](./docs/PRODUCT_PROCESS.md) for the full procedure.
 
 ## How to Use
 
-1. **Copy this snippet into `AGENTS.md`** so AI contributors follow the process:
+1. **Copy `docs/PRODUCT_PROCESS.md` into your project** at the same path.
+   Create a `docs` directory if it doesn't already exist. Keeping the file
+   at `docs/PRODUCT_PROCESS.md` ensures the snippets below reference it
+   correctly.
+
+2. **Copy this snippet into `AGENTS.md`** so AI contributors follow the process:
 
 ```markdown
 # AI Agent Instructions
@@ -22,7 +27,7 @@ This repository follows a structured product development process. Before taking 
    `<!-- AI NOTE: Follow the process in PRODUCT_PROCESS.md. If unsure, consult AGENTS.md. -->`
 ```
 
-2. **Add this snippet to your project's README** if the process file is copied elsewhere:
+3. **Add this snippet to your project's README** if the process file is copied elsewhere:
 
 ```markdown
 ## Development Philosophy
