@@ -52,6 +52,7 @@ The agent should weigh scope, risk, and delivery speed when selecting an option 
    - Unit tests form the executable contract between specs and code
    - Provide thorough coverage for controller actions by mocking databases and any external service calls
    - Each test must link to the technical spec and/or product spec it validates
+   - Teams may keep their existing test directories (e.g., `tests/`) if they add short linking files under `/specs/unit-tests/` pointing to those locations
 
 4. **Write the Code**
    - Must fulfill all unit tests and adhere to the technical spec
@@ -92,7 +93,12 @@ Organize all specs and related documents using these directories:
 
 - `/specs/product-specs/` — one file per user-facing feature or domain (e.g., `hatchery.md`, `items.md`, `pets.md`)
 - `/specs/technical-specs/` — one file per technical solution component (e.g., `egg-incubation.md`, `pet-evolution.md`, `shared-event-bus.md`)
- - `/specs/unit-tests/` — one file or directory per unit test suite (e.g., `hatchery-tests.md`, `items-api-tests/`)
+ - `/specs/unit-tests/` — contains each unit test suite or reference files pointing to suites stored elsewhere (e.g., `hatchery-tests.md`, `items-api-tests/`)
 - `/docs/PRODUCT_PROCESS.md` — this process file
 - `/specs/README.md` — a high-level index and cross-reference map of all specs and tests
+Example reference file:
 
+`/specs/unit-tests/my-api-tests/README.md`
+```markdown
+../tests/api/
+```
