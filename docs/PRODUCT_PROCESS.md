@@ -2,6 +2,9 @@
 
 This guide explains how AI agents should develop features through specs and tests. Following these steps keeps the Vibe Coder workflow efficient and ensures consistent quality.
 
+### Bootstrapping Without a Product Spec
+When adding this process to a repository or performing developer‑experience tasks that don't touch business logic, no product spec is needed. AI agents may update documentation, install libraries, or make broad setup decisions without a spec. If a requestor explicitly acknowledges the process and asks to bypass it, the agent may comply while still exercising caution and escalating when uncertain.
+
 ## Process Flow
 
 ```
